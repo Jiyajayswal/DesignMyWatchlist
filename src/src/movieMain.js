@@ -103,13 +103,7 @@ export function showLayout(show){
                </div>
    
                <div class="project-info-box mt-0 mb-0">
-                   <p class="mb-0">
-                       <span class="fw-bold mr-10 va-middle hide-mobile text-light">Share:</span>
-                       <a href="#x" class="btn btn-xs btn-facebook btn-circle btn-icon mr-5 mb-0"><i class="fab fa-facebook-f"></i></a>
-                       <a href="#x" class="btn btn-xs btn-twitter btn-circle btn-icon mr-5 mb-0"><i class="fab fa-twitter"></i></a>
-                       <a href="#x" class="btn btn-xs btn-pinterest btn-circle btn-icon mr-5 mb-0"><i class="fab fa-pinterest"></i></a>
-                       <a href="#x" class="btn btn-xs btn-linkedin btn-circle btn-icon mr-5 mb-0"><i class="fab fa-linkedin-in"></i></a>
-                   </p>
+                   
                </div>
            </div>
    
@@ -125,6 +119,15 @@ export function showLayout(show){
        </div>
    </div>
        `;
+
+    // To add when ready
+    //    <p class="mb-0">
+    //                    <span class="fw-bold mr-10 va-middle hide-mobile text-light">Share:</span>
+    //                    <a href="#x" class="btn btn-xs btn-facebook btn-circle btn-icon mr-5 mb-0"><i class="fab fa-facebook-f"></i></a>
+    //                    <a href="#x" class="btn btn-xs btn-twitter btn-circle btn-icon mr-5 mb-0"><i class="fab fa-twitter"></i></a>
+    //                    <a href="#x" class="btn btn-xs btn-pinterest btn-circle btn-icon mr-5 mb-0"><i class="fab fa-pinterest"></i></a>
+    //                    <a href="#x" class="btn btn-xs btn-linkedin btn-circle btn-icon mr-5 mb-0"><i class="fab fa-linkedin-in"></i></a>
+    //                </p>
 
        const backToResults = document.getElementById("backToResults");
        if (backToResults) {
