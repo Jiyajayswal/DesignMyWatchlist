@@ -1,0 +1,43 @@
+html,
+
+body{
+    height: 100%;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+} */
+
+body {
+    background-color: #daecec;
+    display: grid;
+    place-items: center;
+    
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+.responsive{
+    min-height: 200px;
+    max-height: 400px;
+}
+
+.fa-battery-full{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+}
+
+p{
+    color: #b7b1b1;
+    font-weight: 500;
+    font-size: 14px;
+}
+

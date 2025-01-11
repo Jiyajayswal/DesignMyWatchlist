@@ -1,0 +1,68 @@
+body{
+    /* background-color:rgb(181, 177, 177); */
+   background: linear-gradient(to right, #c04848, #480048);min-height: 100vh;
+
+   
+  }
+
+label.radio {
+  cursor: pointer;
+}
+
+label.radio input {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+label.radio span {
+  padding: 4px 0px;
+  border: 1px solid rgb(170, 168, 168);
+  display: inline-block;
+  color: rgb(249, 248, 248);
+  width: 100px;
+  text-align: center;
+  border-radius: 3px;
+  margin-top: 7px;
+  text-transform: capitalize;
+}
+
+label.radio input:checked + span {
+  border-color: #fbf6f6;
+  background-color: rgb(213, 63, 63);
+  color: #fbfbfb;
+}
+
+.ans {
+  margin-left: 36px !important;
+  display: block; /* Ensure the container spans its width */
+    /* width: 300px; /* Set the desired width */
+    margin-bottom: 10px;
+}
+
+.redForHover {
+  
+  display: block; 
+}
+
+.redForHover:hover {
+  background-color: rgb(161, 45, 45);
+  color: #f9eeee;
+}
+
+.ans label {
+    display: flex; /* Align radio and text neatly */
+    align-items: center;
+  }
+
+.btn:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.btn:active {
+  outline: 0 !important;
+  box-shadow: none !important;
+}

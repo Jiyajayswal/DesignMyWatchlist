@@ -1,0 +1,102 @@
+{
+    "questions": [
+      {
+        "question": "What streaming platform(s) do you have?",
+        "type": "checkbox",
+        "options": [
+          "netflix", 
+          "HBO",
+          "Prime",
+          "Hulu",
+          "Apple",
+          "peacock",
+          "max",
+          "paramount",
+          "disney",
+          "tubi",
+          "starz"
+      
+        ]
+      },
+      {
+        "question": "What type of watch are you looking for?",
+        "type": "checkbox",
+        "attribute":"watchType",
+        "options": [
+          "Movie",
+          "Series"
+        ]
+      },
+      {
+        "question": "What genres are you interested in?",
+        "type": "checkbox",
+        "attribute":"genre",
+        "options": [
+          "Action",
+          "Adventure",
+          "Animation",
+          "Comedy",
+          "Crime",
+          "Documentary",
+          "Drama",
+          "Family",
+          "Fantasy",
+          "History",
+          "Horror",
+          "Mystery",
+          "Reality",
+          "Romance",
+          "Scifi",
+          "thriller"
+
+        ]
+      },
+      {
+        "question": "What language(s) would you prefer for movies/shows?",
+        "type": "checkbox",
+        "attribute":"language",
+        "options": [
+          { "label": "English", "value": "en" },
+          { "label": "Spanish", "value": "es" },
+          { "label": "French", "value": "fr" },
+          { "label": "German", "value": "de" },
+          { "label": "Italian", "value": "it" },
+          { "label": "Japanese", "value": "ja" },
+          { "label": "Chinese", "value": "zh" },
+          { "label": "Korean", "value": "ko" },
+          { "label": "Portuguese", "value": "pt" },
+          { "label": "Russian", "value": "ru" },
+          { "label": "Hindi", "value": "hi" },
+          { "label": "Arabic", "value": "ar" },
+          { "label": "Dutch", "value": "nl" },
+          { "label": "Swedish", "value": "sv" },
+          { "label": "Danish", "value": "da" },
+          { "label": "Norwegian", "value": "no" },
+          { "label": "Finnish", "value": "fi" }
+        ]
+    
+      },
+      {
+        "question": "How old would you like the show to be?",
+        "type": "radio",
+        "attribute":"rating",
+        "options": [
+          "Published in last 3 years or later",
+          "Published in last 5 years",
+          "Published in last 10 years",
+          "Published in last 20 years or earlier",
+          "Doesn't matter"
+        ]
+      },
+      {
+        "question": "",
+        "type": "",
+        "attribute":"",
+        "options": [""
+        ]
+      }
+     
+    ]
+}
+  
+  
