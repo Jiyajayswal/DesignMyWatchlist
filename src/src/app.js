@@ -3,37 +3,9 @@ import { fetchresults } from './displayResults.js';
 
 export let userAnswers = {};
 
-// export let coverText = `
-// <div class="static-slider3">
-//   <div class="container">
-      
-//       <div class="row justify-content-center text-light">
-        
-//           <div class="col-md-8 align-self-center text-center text-light">
-//               <h1 class="title text-light">Can't find a movie to watch? </h1>
-//                  <h5 class="text-light"><b class="font-weight-bold text-light">You're at the right place, answer a few questions and lets us find you something to watch</b>
-//                   <br>like a 
-//                   <span class="text-success-gradiant font-weight-bold typewrite" data-period="2000" data-type='[ "Dark tv comedies" , "A funny sitcom", "a true crime documentary", "anything with The Rock in it" ]'></span>
-//               </h5>
-//                             <button id="startButton" class="btn btn-success-gradiant btn-md text-white border-0 mt-3">
-//                 <span>Start now</span></button>
-//                </div>    
-//       </div>
-//   </div>
-// </div>
-// `;
-
 
 const startquesContainer = document.getElementById('startquesContainer');
 startquesContainer.style.display = 'none';
-
-// displayResultsFunc()
-//     .then(results => {
-//         console.log(results);
-//     })
-//     .catch(error => {
-//         console.error('Error:', error);
-//     });
 
  document.addEventListener('DOMContentLoaded', () => {
     
@@ -62,18 +34,8 @@ startquesContainer.style.display = 'none';
             `;
 
 
-    // const container = document.body; // Or choose a specific element to append the cover text
-    // container.insertAdjacentHTML('beforeend', coverText); // Add coverText to the DOM
     let startButton = document.getElementById('startButton');
     startButton.addEventListener('click', () => questionLayout());
-// if (startButton) {
-//     startButton.addEventListener('click', () => {
-//         console.log("Start button clicked!");
-//         questionLayout();
-//     });
-// } else {
-//     console.error("Start button not found!");
-// }
 
     function questionLayout() {
 
