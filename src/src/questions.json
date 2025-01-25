@@ -19,7 +19,7 @@
         ]
       },
       {
-        "question": "What type of watch are you looking for?",
+        "question": "What do you want to watch?",
         "type": "checkbox",
         "attribute":"watchType",
         "options": [
