@@ -1,0 +1,2 @@
+[build]
+  publish = "."  # The current directory (root)
